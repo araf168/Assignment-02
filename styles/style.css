@@ -174,10 +174,10 @@
     font-weight: 400;
     margin-bottom: 10px;
 }
+
 /* change habit related style */
-
-.change-habit{
-
+.your{
+    max-width: 1440px;
 }
 .change-habit-title{
     font-weight: 700;
@@ -212,4 +212,38 @@
 .habit-description{
     font-size: ;
     color: rgba(255, 255, 255, 0.5);
+}
+
+/* Run an Extra Mile Easily Related style */
+
+.run-easy{
+    margin: 100px 200px;
+    padding: 30px;
+    background-color:#292626;
+    border-radius: 16px;
+    gap: 50px;
+}
+.run-easy-container{
+    width: 100%;
+    margin-left: 25px;
+}
+.run-easy-container-title{
+    font-size: 4rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+.run-easy-container-description{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: -30px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: justify;
+    padding-right: 60px;
+    margin-bottom: 30px;
+}
+.run-easy-container-img{
+    width: 400px;
+    height: 350px;
+    border-radius: 15px;
 }

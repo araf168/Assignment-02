@@ -6,20 +6,12 @@
     font-weight: 400;
     font-style: normal;
 }
-/* @import url('https://fonts.cdnfonts.com/css/miama');
-.titillium-web-bold-italic {
+@import url('https://fonts.cdnfonts.com/css/miama');
+.miama-font {
     font-family: 'Miama', sans-serif;
     font-style: italic;
-    font-weight: 400;
-    display: inline-block;
-    background-color: transparent;
-} */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
-
-.titillium-web-bold-italic {
-    font-family: "Titillium Web", sans-serif;
     font-weight: 500;
-    font-style: italic;
+    font-size: 60px;
 }
 
 .color-primary {
@@ -96,24 +88,17 @@
     height: 450px;
 }
 .header-container-title {
-    font-size: 60px;
+    font-size: 70px;
     color: white;
     margin-bottom: 25px;
+    line-height: 100%;
 }
 
-.shape{
-    font-size: 60px;
-}
 .header-container-description {
     font-size: 1rem;
-    color: white;
-    margin-bottom: 25px;
-}
+    color: rgba(255, 255, 255, 0.5);
 
-.header-container-right {
-    /* padding-right: 70px; */
-    /* width: 350px;
-    height: 600px; */
+    margin-bottom: 25px;
 }
 
 .header-container-image{
@@ -188,4 +173,43 @@
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 10px;
+}
+/* change habit related style */
+
+.change-habit{
+
+}
+.change-habit-title{
+    font-weight: 700;
+    font-size: 4rem;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 0;
+}
+.change-habit-description{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin: 25px 350px;
+}
+.card{
+    margin: 40px 200px 0px 200px;
+    gap: 30px;
+}
+.habit-img{
+    width: 80%;
+    border: 4xp solid rgba(255, 255, 255, 0.1);
+    border-radius: 100px;
+}
+.habit-card{
+    text-align: center;
+    width: 250px;
+}
+.habit-title{
+    font-size: 1.1rem;
+    color: #FFFFFF;
+}
+.habit-description{
+    font-size: ;
+    color: rgba(255, 255, 255, 0.5);
 }

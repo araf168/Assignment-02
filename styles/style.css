@@ -210,7 +210,7 @@
     color: #FFFFFF;
 }
 .habit-description{
-    font-size: ;
+    font-size: 1rem;
     color: rgba(255, 255, 255, 0.5);
 }
 
@@ -247,3 +247,99 @@
     height: 350px;
     border-radius: 15px;
 }
+
+/* BMI Related style */
+.bmi{
+    background-color: rgba(34, 34, 34, 1);
+
+}
+.bmi-head{
+    background-color: #111111;
+    padding: 0 400px 25px;
+}
+.bmi-head-title{
+    font-size: 3rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-bottom: -3px;
+}
+.bmi-head-description{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.chart-form{
+    display: flex;
+    padding: 50px 190px;
+    gap: 170px;
+}
+.chart-title{
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+table{
+    width: 350px;
+    height: 220px;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 8px 20px;
+    text-align: start;
+}
+.column{
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+.row{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.form{
+    width: 550px;
+    height: 350px;
+    margin-top: -35px;
+}
+.input-group{
+    display: flex;
+    color: #FFFFFF;
+
+}
+input {
+    width: 250px;
+    height: 50px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 1rem;
+    margin:5px 5px 5px 0px;
+    padding-left: 15px;
+}
+.select-one{
+    width: 265px;
+    height: 52px;
+    color: rgba(134, 128, 128, 0.744);
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 1rem;
+    margin:5px 5px 5px 0px;
+    padding-left: 10px;
+}
+.select-two{
+    width: 539px;
+    height: 50px;
+    color: rgba(134, 128, 128, 0.744);
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 1rem;
+    margin:5px 5px 5px 0px;
+    padding-left: 10px;
+    margin-bottom: 25px;
+}
+

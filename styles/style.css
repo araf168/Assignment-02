@@ -343,3 +343,87 @@ input {
     margin-bottom: 25px;
 }
 
+/* Meet team related styles */
+.meet-team{
+    margin: 90px 190px;
+}
+.meet-team-title{
+    font-weight: 700;
+    font-size: 3rem;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0px 190px 15px;
+}
+.meet-team-description{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin: 0px 190px 55px;
+}
+.meet-team-img{
+    background-color: rgba(71, 67, 67, 0.262);
+    width: 1050px;
+    height: 550px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 18px;
+    padding-top: 18px;
+    gap: 5px;
+}
+.team-sec-one{
+    width: 330px;
+    height: 260px;
+    background-image: url(../images/trainer1.png);
+    background-size: cover;
+    border-radius: 17px;
+}
+.team-sec-two{
+    width: 330px;
+    height: 260px;
+    background-image: url(../images/trainer2.png);
+    background-size: cover;
+    border-radius: 17px;
+}
+.team-sec-three{
+    width: 330px;
+    height: 260px;
+    background-image: url(../images/trainer3.png);
+    background-size: cover;
+    border-radius: 17px;
+}
+.team-sec-four{
+    width: 330px;
+    height: 260px;
+    background-image: url(../images/trainer4.png);
+    background-size: cover;
+    border-radius: 17px;
+}
+.team-sec-five{
+    width: 330px;
+    height: 260px;
+    background-image: url(../images/trainer5.png);
+    background-size: cover;
+    border-radius: 17px;
+}
+.team-sec-six{
+    width: 330px;
+    height: 260px;
+    background-image: url(../images/trainer6.png);
+    background-size: cover;
+    border-radius: 17px;
+}
+.all-img-title{
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 200px;
+    margin-left: 15px;
+    line-height: 0;
+}
+.all-img-des{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 15px;
+    line-height: 10px;
+}

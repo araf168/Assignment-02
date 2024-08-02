@@ -427,3 +427,55 @@ input {
     margin-left: 15px;
     line-height: 10px;
 }
+
+/* footer related styles */
+
+.footer-main{
+    background-color: rgba(71, 67, 67, 0.262);
+    padding: 70px 190px;
+    max-width: 1440px;
+}
+.footer-section{
+    border-bottom: 3px solid rgba(255, 255, 255, 0.1);
+}
+.footer-container{
+    display: flex;
+    gap: 120px;
+    margin-bottom: 40px;
+}
+.footer-fitness{
+    width: 450px;
+    height: 280px;
+    line-height: 25px;
+}
+.brand-footer-title {
+    font-weight: 800;
+    font-size: 4.4rem;
+    color: #E6533C;
+}
+.brand-footer-description{
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: start;
+}
+.get-started{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+.get-stared-details{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 18px;
+}
+.footer-restrict{
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 50px;
+    line-height: 24px;
+}

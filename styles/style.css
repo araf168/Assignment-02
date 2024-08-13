@@ -11,406 +11,524 @@
     font-family: 'Miama', sans-serif;
     font-style: italic;
     font-weight: 500;
-    font-size: 60px;
+    display: inline-block;
 }
 
-.color-primary {
-    color: #E6533C;
-}
-
-.display-flex {
-    display: flex;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    background-color: #111111;
 }
 
 /* header section starts */
-.body-bg-color {
-    background-color: #111111;
-}
+
 .header-section{
-    max-width: 1440px;
+    padding-top: 3.5rem;
+    background: linear-gradient(to bottom, 
+    rgba(119,119,119,0),
+    rgb(17,17,17) 30%,
+    rgb(17,17,17) 50%,
+    rgb(17,17,17) 70%,
+    rgba(119,119,119,0));
 }
+
 /* navbar related style */
 .navbar {
+    width: 75%;
+    height: fit-content;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 40px;
+    background-color: transparent;
 }
 
 .brand {
-    font-weight: 700;
+    font-weight: 800;
+    font-style: italic;
     font-size: 3rem;
+    color: #E6533C;
 }
 
 .nav-links {
-    height: 35px;
-    color: white;
+    width: 45%;
+    box-sizing: border-box;
     border: 1px solid #252525;
-    border-radius: 30px;
-    padding: 5px;
-    align-items: center;
-    gap: 35px;
-}
-
-.nav-item {
-    list-style: none;
-    margin-right: 30px;
-    font-size: 1.25rem;
-}
-
-#nav-item {
-    width: 77px;
-    height: 30px;
-    justify-content: center;
-    text-align: center;
-    padding-top: 5px;
-    border-radius: 45px;
-    background-color: #E6533C;
-}
-
-.nav-link {
-    text-decoration: none;
-    font-weight: 500;
-}
-
-.navbar {
-    margin: 0 100px;
-}
-
-.header-container {
-    margin-left: 150px;
-    margin-right: 170px;
+    border-radius: 2.45rem;
+    padding: 0.25rem;
+    display: flex;
     justify-content: space-between;
-    gap: 300px;
+    align-items: center;
+    background-color: transparent;
+}
+.nav-links button {
+    font-size: 1.15rem;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-weight: 400;
+    cursor: pointer;
+    background-color: transparent;
+}
+.nav-links .nav-item {
+    border-radius: 2.8rem;
+    background-color: #E6533C;
+    padding: 0.5rem 1.25rem 0.5rem 1.25rem;
+    font-weight: 600;
+}
+.nav-links .nav-link-btn {
+    margin-right: 0.6rem;
+
+}
+.icon-bar{
+    display: none;
+}
+
+/* banner related styles */
+.header-container {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+    /* gap: 300px; */
 }
 
 .header-container-left {
-    width: 600px;
-    height: 450px;
+    width: 50%;
+    height: fit-content;
+    background-color: transparent;
 }
 .header-container-title {
-    font-size: 70px;
+    font-size: 4.5rem;
+    font-weight: 800;
     color: white;
-    margin-bottom: 25px;
-    line-height: 100%;
+    line-height: 120%;
 }
 
 .header-container-description {
     font-size: 1rem;
+    font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
-
-    margin-bottom: 25px;
+    margin-top: 1.75rem;
+}
+.header-button{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-.header-container-image{
-    width: 350px;
-    height: 600px;
-}
-.nav-item-btn{
-    width: 215px;
-    height: 50px;
+.header-button button{
     color: #FFFFFF;
-    border: none;
     font-size: 1.1rem;
     font-weight: 500;
+    cursor: pointer;
+    border: 1px solid #FFFFFF;
     background-color: #E6533C;
-    border-radius: 40px;
-    margin-right: 10px;
+    border-radius: 2.6rem;
+    margin-top: 1.75rem;
+    padding: 1.1rem 2.5rem;
+    box-sizing: border-box;
+}
+#club{
+    background: #E6533C;
+}
+.header-button .nav-item-btn{
+    background: #E6533C;
+    margin-right: 1rem;
+    border: none;
 }
 #nav-item-btn{
     border: 1px solid white;
     background-color: black;
 }
+.header-container-right{
+    position: relative;
+    background-color: transparent;
+}
+.header-container-image{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
 
-.image-above-one{
-    width: 200px;
-    height: 90px;
-    border: none;
-    border-radius: 10px;
+}
+.pic-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic-btn .image-above{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.75rem;
+    backdrop-filter: blur(1rem);
     background-color: rgba(48, 48, 48, 0.54);
-    padding: 20px 20px;
-    gap: 5px;
+}
+.pic-btn .lower{
     position: absolute;
-    bottom: 2%;
-    left: 56%;
+    top: 20%;
+    right: -16%;
+    padding: 1rem;
 }
-.dot{
-    height: 40px;
-    width: 40px;
-    display: inline-block;
-    background-color: #E6533C;
-    border-radius: 50%;
-    margin-top: 6px;
-}
-.vd-tutorial{
-    text-align: left;
-    margin-left: 15px;
-}
-#above{
-    color: #FAFAF9;
+.image-above #above{
+    color: rgb(250, 250, 239);
     font-size: 1.5rem;
     font-weight: 900;
-    margin-bottom: 15px;
+    background: transparent;
 }
-.image-above-two{
-    width: 200px;
-    height: 90px;
-    border: none;
-    border-radius: 10px;
-    background-color: rgba(48, 48, 48, 0.54);
-    padding: 0 20px;
-    position: absolute;
-    bottom: 45%;
-    right: 9%;
-}
-#up{
-    color: #FAFAF9;
+.image-above #up{
+    color: rgb(255, 255, 255);
     font-size: 2.5rem;
     font-weight: 900;
-    margin-top: 5px;
+    background: transparent;
 }
-#down-two{
+.image-above #down-two{
     color: rgba(239, 237, 232, 0.65);
     font-size: 1rem;
     font-weight: 400;
-    margin-bottom: 10px;
+    background: transparent;
+}
+.upper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    bottom: 15%;
+    left: -20%;
+    padding: 1rem;
+}
+.dot{
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6533C;
+    border-radius: 50%;
+    margin-right: 1rem;
+    border: none;
+}
+.dot i{
+    display: none;
+    background: transparent;
+}
+
+.vd-tutorial{
+    background: transparent;
 }
 
 /* change habit related style */
 .your{
-    max-width: 1440px;
+    width: 75%;
+    margin: 6.25rem auto;
+} 
+.change-habit-container{
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 3.3rem;
 }
 .change-habit-title{
-    font-weight: 700;
+    font-weight: 800;
     font-size: 4rem;
     color: #FFFFFF;
-    text-align: center;
-    margin-bottom: 0;
+    line-height: 120%;
+    margin-bottom: 0.8rem;
 }
 .change-habit-description{
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.5);
-    text-align: center;
-    margin: 25px 350px;
+    font-weight: 400;
+    line-height: 1.5rem;
 }
 .card{
-    margin: 40px 200px 0px 200px;
-    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: calc(100%-2rem);
+    gap: 2.5rem;
+    padding: 0 1rem;
 }
 .habit-img{
-    width: 80%;
+    width: 100%;
     border: 4xp solid rgba(255, 255, 255, 0.1);
-    border-radius: 100px;
+    border-radius: 50%;
+    margin-bottom: 1.8rem;
 }
-.habit-card{
-    text-align: center;
-    width: 250px;
-}
+
 .habit-title{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: #FFFFFF;
+    font-weight: 600;
+    line-height: 120%;
+    margin-bottom: 0.4rem;
+    text-align: center;
 }
 .habit-description{
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    line-height: 1.1rem;
+    text-align: center;
 }
 
 /* Run an Extra Mile Easily Related style */
 
 .run-easy{
-    margin: 100px 200px;
-    padding: 30px;
+    width: 75%;
+    margin: 0 auto;
     background-color:#292626;
-    border-radius: 16px;
-    gap: 50px;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6.2rem;
 }
-.run-easy-container{
-    width: 100%;
-    margin-left: 25px;
+.run-easy .run-easy-container{
+    width: 35%;
+    margin: 2.5rem auto;
+    margin-left: 3.3rem;
+    background: transparent;
 }
 .run-easy-container-title{
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 800;
     color: #FFFFFF;
-    margin-top: 15px;
+    line-height: 120%;
+    margin-bottom: 0.8rem;
+    background: transparent;
 }
 .run-easy-container-description{
     font-size: 1rem;
     font-weight: 400;
-    margin-top: -30px;
     color: rgba(255, 255, 255, 0.5);
-    text-align: justify;
-    padding-right: 60px;
-    margin-bottom: 30px;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+    background: transparent;
+}
+.run-easy-container-button{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: rgb(230, 83, 60);
+    padding: 1rem 2.5rem;
+    border-radius: 2.5rem;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+}
+.run-easy .run-easy-img{
+    width: 30%;
+    margin: 1.9rem 2rem;
+    border-radius: 1.1rem;
+    background: transparent;
 }
 .run-easy-container-img{
-    width: 400px;
-    height: 350px;
-    border-radius: 15px;
+    width: 100%;
+    border-radius: 1.15rem;
+    object-fit: none;
+    object-position: 67% 35%;
 }
 
 /* BMI Related style */
-.bmi{
-    background-color: rgba(34, 34, 34, 1);
-
-}
 .bmi-head{
-    background-color: #111111;
-    padding: 0 400px 25px;
+    width: 46%;
+    margin: 0 auto;
+    margin-bottom: 6.25rem;
 }
 .bmi-head-title{
     font-size: 3rem;
     font-weight: 800;
     color: #FFFFFF;
-    margin-bottom: -3px;
+    line-height: 120%;
+    margin-bottom: 0.9rem;
 }
 .bmi-head-description{
     font-size: 1rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
+    line-height: 1.5rem;
+}
+.bmi{
+    width: 100%;
+    background-color: rgba(34, 34, 34, 1);
+    margin-bottom: 6.25rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
 }
 .chart-form{
+    width: 75%;
+    margin: 0 auto;
     display: flex;
-    padding: 50px 190px;
-    gap: 170px;
+    justify-content: space-between;
+    background: transparent;
 }
-.chart-title{
+.chart-container{
+    width: 50%;
+    background: transparent;
+}
+.chart-title, .form-title{
     font-size: 1.7rem;
     font-weight: 700;
     color: #FFFFFF;
-    padding-bottom: 30px;
+    line-height: 120%;
+    background: transparent;
+}
+.chart-title{
+    margin-bottom: 3.25rem;
 }
 table{
-    width: 350px;
-    height: 220px;
     border-collapse: collapse;
+    background: rgb(34, 34, 34);
 }
-th, td {
+th {
     border: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 8px 20px;
-    text-align: start;
-}
-.column{
+    padding: 1rem 1.5rem;
+    line-height: 120%;
     font-size: 1rem;
-    color: #FFFFFF;
+    font-weight: 500;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    background: rgb(34, 34, 34);
 }
-.row{
-    font-size: 1rem;
+td{
+    padding: 0.8rem 1.5rem;
+    font-size: 0.8rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    line-height: 120%;
+    font-weight: 400;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    background: rgb(34, 34, 34);
+}
+.form-container{
+    width: 50%;
+    background: transparent;
+}
+.form-title{
+    margin-bottom: 0.8rem;
+}
+.form-description{
+    width: 95%;
+    font-size: 0.9rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
-}
-.form{
-    width: 550px;
-    height: 350px;
-    margin-top: -35px;
-}
-.input-group{
-    display: flex;
-    color: #FFFFFF;
-
+    line-height: 1.5rem;
+    background: transparent;
+    margin-bottom: 2.1rem;
 }
 input {
-    width: 250px;
-    height: 50px;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.6);
+    width: 45.5%;
+    height: 3rem;
     border: none;
-    border-radius: 8px;
+    border-radius: .5rem;
     background-color: rgba(255, 255, 255, 0.1);
     font-size: 1rem;
-    margin:5px 5px 5px 0px;
-    padding-left: 15px;
+    margin: 0.3rem 0.3rem 0.3rem 0;
+    padding-left: 1rem;
 }
-.select-one{
-    width: 265px;
-    height: 52px;
-    color: rgba(134, 128, 128, 0.744);
+
+#sex,
+#activity {
+    color: rgba(255, 255, 255, 0.6);
+    width: 48%;
+    height: 3rem;
     border: none;
-    border-radius: 8px;
+    border-radius: .5rem;
     background-color: rgba(255, 255, 255, 0.1);
     font-size: 1rem;
-    margin:5px 5px 5px 0px;
-    padding-left: 10px;
+    margin: 0.3rem 0.3rem 0.3rem 0;
+    padding-left: 0.635rem;
+    border-right: 0.635rem solid transparent;
 }
-.select-two{
-    width: 539px;
-    height: 50px;
-    color: rgba(134, 128, 128, 0.744);
+
+#activity {
+    width: 98%;
+    margin-bottom: 2rem;
+}
+
+option {
+    width: 100%;
     border: none;
-    border-radius: 8px;
-    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: .5rem;
+    background-color: gray;
+    color: lightgray;
     font-size: 1rem;
-    margin:5px 5px 5px 0px;
-    padding-left: 10px;
-    margin-bottom: 25px;
+    margin: 0.3rem;
+}
+
+form,
+.input-group,
+label {
+    background: transparent;
+}
+
+.bmi-btn {
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.375rem;
+    border-radius: 2.625rem;
+    background: rgb(230, 83, 60);
+    border: none;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    cursor: pointer;
 }
 
 /* Meet team related styles */
 .meet-team{
-    margin: 90px 190px;
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 6rem;
 }
-.meet-team-title{
-    font-weight: 700;
-    font-size: 3rem;
-    color: #FFFFFF;
-    text-align: center;
-    margin: 0px 190px 15px;
-}
-.meet-team-description{
-    font-size: 1rem;
-    color: rgba(255, 255, 255, 0.5);
-    text-align: center;
-    margin: 0px 190px 55px;
-}
-.meet-team-img{
+.meet-team-container{
     background-color: rgba(71, 67, 67, 0.262);
-    width: 1050px;
-    height: 550px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    padding-left: 18px;
-    padding-top: 18px;
-    gap: 5px;
+    justify-items: center;
+    border-radius: 1.1rem;
+    padding: 1rem;
+    gap: 1rem;
 }
-.team-sec-one{
-    width: 330px;
-    height: 260px;
-    background-image: url(../images/trainer1.png);
-    background-size: cover;
-    border-radius: 17px;
+.meet-team-container .meet-team-img{
+    width: 100%;
+    margin: 0 1rem;
+    padding-top: 100%;
+    position: relative;
+    overflow: hidden;
+    background: transparent;
 }
-.team-sec-two{
-    width: 330px;
-    height: 260px;
-    background-image: url(../images/trainer2.png);
-    background-size: cover;
-    border-radius: 17px;
+.meet-team-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1.1rem;
+    background: rgba(0, 0, 0, 0.2);
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
 }
-.team-sec-three{
-    width: 330px;
-    height: 260px;
-    background-image: url(../images/trainer3.png);
-    background-size: cover;
-    border-radius: 17px;
+.team-sec{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    background: transparent;
 }
-.team-sec-four{
-    width: 330px;
-    height: 260px;
-    background-image: url(../images/trainer4.png);
-    background-size: cover;
-    border-radius: 17px;
+.team-sec h3, p{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 500;
+    background: transparent;
 }
-.team-sec-five{
-    width: 330px;
-    height: 260px;
-    background-image: url(../images/trainer5.png);
-    background-size: cover;
-    border-radius: 17px;
-}
-.team-sec-six{
-    width: 330px;
-    height: 260px;
-    background-image: url(../images/trainer6.png);
-    background-size: cover;
-    border-radius: 17px;
+.team-sec p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
 }
 .all-img-title{
     font-size: 1.25rem;
@@ -431,51 +549,86 @@ input {
 /* footer related styles */
 
 .footer-main{
-    background-color: rgba(71, 67, 67, 0.262);
-    padding: 70px 190px;
-    max-width: 1440px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1)
 }
 .footer-section{
-    border-bottom: 3px solid rgba(255, 255, 255, 0.1);
-}
-.footer-container{
+    width: 75%;
+    height: fit-content;
+    margin: 4.5rem auto;
     display: flex;
-    gap: 120px;
-    margin-bottom: 40px;
+    justify-content: space-between;
+    background: transparent;
+}
+#brand{
+    font-size: 4.4rem;
+    margin-bottom: 1.25rem;
+    background: transparent;
+}
+.footer-container-one{
+    width: 50%;
+    margin-top: 4.5rem;
+    background: transparent;
 }
 .footer-fitness{
-    width: 450px;
-    height: 280px;
-    line-height: 25px;
-}
-.brand-footer-title {
-    font-weight: 800;
-    font-size: 4.4rem;
-    color: #E6533C;
+    width: 86%;
+    background: transparent;
 }
 .brand-footer-description{
     font-weight: 400;
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.5);
-    text-align: start;
+    line-height: 1.5rem;
+    background: transparent;
+}
+.footer-container-two{
+    width: 50%;
+    margin-top: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+}
+.started-box{
+    background: transparent;
 }
 .get-started{
     font-size: 2rem;
     font-weight: 700;
     color: #FFFFFF;
-    margin-top: 10px;
+    line-height: 120%;
+    margin-bottom: 2.3rem;
+    background: transparent;
 }
 .get-stared-details{
     color: rgba(255, 255, 255, 0.5);
     font-size: 1.5rem;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 120%;
+    margin-bottom: 1.25rem;
+    background: transparent;
+}
+hr{
+    width: 75%;
+    margin: 0 auto;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    background: transparent;
+
+}
+#footer-restrict{
+    background: transparent;
+    margin-top: 2.25rem;
+    padding-bottom: 2.25rem;
 }
 .footer-restrict{
     font-size: 1.25rem;
     font-weight: 400;
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
-    margin-top: 50px;
-    line-height: 24px;
+    background: transparent;
+    line-height: 1.5rem;
 }
+
+.icon-bar{
+    display: none;
+}
+

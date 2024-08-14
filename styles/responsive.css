@@ -142,7 +142,12 @@
     th{
         font-size: 0.9rem;
     }
-    
+    /* extra section */
+    .our-works-img{
+        width: 93%;
+        grid-template-columns: repeat(1,1fr);
+        background: transparent;
+    }
 
     /* footer section */
     .footer-section, .footer-container-two{

@@ -546,6 +546,24 @@ label {
     line-height: 10px;
 }
 
+/* Extra section related styles */
+.our-works-img{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: calc(100%-2rem);
+    gap: 2.5rem;
+    padding: 0 1rem;
+    margin-bottom: 4rem;
+}
+.our-works-img img{
+    width: 100%;
+    height: 100%;
+    border: 4xp solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 1.8rem;
+}
+   
+
 /* footer related styles */
 
 .footer-main{
